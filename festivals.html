@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,12 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
   <header>
-    <h1>Goan Cuisine</h1>
-    <button id="theme-toggle" class="theme-toggle">🌙</button>
+    <div class="brand">
+      <h1>Goan Cuisine</h1>
+    </div>
     <nav>
       <a href="index.html">Home</a>
       <a href="famous.html">Famous Dishes</a>
@@ -18,8 +21,9 @@
       <a href="history.html">History</a>
       <a href="recipes.html">Recipes</a>
     </nav>
+    <button id="theme-toggle" class="theme-toggle">☀️ Light mode</button>
   </header>
-
+  
   <main>
     <h2>Festivals & Festival Foods</h2>
     <h5>*Please note: All images link to the related recipe page*</h5>
@@ -27,17 +31,20 @@
     <div class="gallery">
       <!-- Festival 1 + Dish -->
       <div>
-        <img src="images/fest1.jpg" alt="Narkasur (Diwali)" title="Narkasur" onclick="location.href='recipes.html#festDish1'">
+        <img src="images/fest1.jpg" alt="Narkasur (Diwali)" title="Narkasur"
+          onclick="location.href='recipes.html#festDish1'">
         <p>Narkasur (Diwali)</p>
       </div>
       <div>
-        <img src="images/festDish1.jpg" alt="Batatache Fov" title="Batatache Fov" onclick="location.href='recipes.html#festDish1'">
+        <img src="images/festDish1.jpg" alt="Batatache Fov" title="Batatache Fov"
+          onclick="location.href='recipes.html#festDish1'">
         <p>Batatache Fov (बटाटाचे फोव)</p>
       </div>
 
       <!-- Festival 2 + Dish -->
       <div>
-        <img src="images/fest2.jpg" alt="Ganesh Chaturthi" title="Ganesh Chaturthi" onclick="location.href='recipes.html#festDish2'">
+        <img src="images/fest2.jpg" alt="Ganesh Chaturthi" title="Ganesh Chaturthi"
+          onclick="location.href='recipes.html#festDish2'">
         <p>Ganesh Chaturthi</p>
       </div>
       <div>
@@ -57,7 +64,8 @@
 
       <!-- Festival 4 + Dish -->
       <div>
-        <img src="images/fest4.jpg" alt="Christmas (नातळ)" title="Christmas" onclick="location.href='recipes.html#festDish4'">
+        <img src="images/fest4.jpg" alt="Christmas (नातळ)" title="Christmas"
+          onclick="location.href='recipes.html#festDish4'">
         <p>Christmas (नातळ)</p>
       </div>
       <div>
@@ -67,11 +75,13 @@
 
       <!-- Festival 5 + Dish -->
       <div>
-        <img src="images/Fest5.jpg" alt="Dhendlo (धेंडलो)" title="Dhendlo" onclick="location.href='recipes.html#festDish5'">
+        <img src="images/Fest5.jpg" alt="Dhendlo (धेंडलो)" title="Dhendlo"
+          onclick="location.href='recipes.html#festDish5'">
         <p>Dhendlo (धेंडलो)</p>
       </div>
       <div>
-        <img src="images/festDish5.jpg" alt="Rice Pancake" title="दाट पोळे" onclick="location.href='recipes.html#festDish5'">
+        <img src="images/festDish5.jpg" alt="Rice Pancake" title="दाट पोळे"
+          onclick="location.href='recipes.html#festDish5'">
         <p>Rice Pancake (दाट पोळे)</p>
       </div>
     </div>
@@ -99,4 +109,5 @@
   <button id="back-to-top" title="Back to top">↑</button>
   <script src="js/theme-toggle.js"></script>
 </body>
+
 </html>
